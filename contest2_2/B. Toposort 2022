@@ -1,0 +1,18 @@
+
+Time limit	1 second
+Memory limit	64.0 MB
+Input	stdin or input.txt
+Output	stdout or output.txt
+Print a topological sort of a given directed graph using DFS.
+
+
+Input format
+
+First line: n m
+(n = number of vertices; m = number of edges)
+Then m lines: e f (for every edge e->f)
+(vertices are counted from 0)
+
+Output format
+
+N numbers (vertices are counted from 0) representing topological sort
