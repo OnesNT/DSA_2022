@@ -1,0 +1,52 @@
+
+Time limit	1 second
+Memory limit	64Mb
+Input	standard input or input.txt
+Output	standard output or output.txt
+
+
+You are given a square chessboard of 8 x 8 size, the position of Knight and position of a target is given. We need to find out the minimum steps a Knight will take to reach the target position.
+A board in numbered from left to right, from top to bottom, from 1 to 8.
+
+
+
+
+Input format
+First line: a b - start Knight position
+
+Second line: c d - target Knight position
+
+Output format
+First line: the minimum steps a Knight will take to reach the target position, -1 if there is no path.
+
+
+
+
+Sample 1
+
+Input	
+1 1
+2 3
+
+Output
+1
+
+
+Sample 2
+
+Input	
+8 1
+1 8
+
+Output
+6
+
+
+Sample 3
+
+Input	
+1 2
+5 6
+
+Output
+4
