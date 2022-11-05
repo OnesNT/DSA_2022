@@ -1,0 +1,59 @@
+
+Time limit	1 second
+Memory limit	64.0 MB
+Input	stdin or input.txt
+Output	stdout or output.txt
+
+
+
+You are given a graph (All vertices are numbered from 1 to n) and two vertices (s and v).
+You have to find a length of the shortest path between vertex s and vertex v.
+
+
+
+
+Input format:
+
+First line: n (number of vertices)
+Second line: m (number of edges)
+Next m lines: e f (edges line by line)
+Last line: s v (vertices you need to find the shortest path between)
+
+
+Output format
+First line: distance between s and v, -1 if there is no path.
+
+Sample 1
+Input	
+4
+4
+1 2
+1 3
+2 3
+3 4
+1 4
+
+Output
+2
+
+
+Sample 2
+Input	
+8
+11
+1 2
+2 1
+2 3
+3 2
+3 4
+4 5
+5 3
+5 6
+6 7
+6 8
+7 8
+1 8
+
+
+Output
+6
