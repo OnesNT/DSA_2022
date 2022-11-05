@@ -1,0 +1,54 @@
+
+Time limit	1 second
+Memory limit	64Mb
+Input	standard input or input.txt
+Output	standard output or output.txt
+
+
+
+Given a maze in the form of binary matrix N x N. Each cell is 1 (you can go to the cell) or 0 (you can't go to the cell). You need to find the shortest path in a maze from given source to destination. Print the shortest path from source to destination.
+
+You can go up, down, left and right. Matrix rows and columns are numbered from 1 to N.
+
+
+
+
+Input format
+First line: N (size of matrix) Next N lines: 0s and 1s line by line N-th + 2 line: a b (source point) N-th + 3 line: c d (target point)
+
+Output format
+Print the shortest path line point by point. Each point on a single line. Print "-1" if there is no path.
+
+
+
+
+
+Sample 1
+Input	
+3
+1 0 1 
+1 0 1 
+1 1 1
+1 1
+3 3
+
+Output
+1 1
+2 1
+3 1
+3 2
+3 3
+
+
+Sample 2
+Input	
+3
+1 1 1
+1 1 1
+0 0 0
+1 1
+3 3
+
+Output
+-1
+
